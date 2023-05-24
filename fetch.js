@@ -1,6 +1,7 @@
 javascript:(function() {
-  var rawUrl = 'https://raw.githubusercontent.com/projectnomore/bookmarklet-beta/main/bookmarklet.js'; // fetch URL
-  
+  var rawUrl = 'https://raw.githubusercontent.com/projectnomore/bookmarklet-beta/main/bookmarklet.js';
+
+  fetch(rawUrl)
     .then(response => response.text())
     .then(code => {
       var script = document.createElement('script');
