@@ -8,7 +8,7 @@ javascript:(function() {
     <hr>
     <h2>Edpuzzle by <a href="https://www.librecheats.net/">LibreCheats</a></hr>
     <a href="https://ujosd1.csb.app/hacks/edpuzzle.html">View on PNM Site</a>
-    <button href="javascript: document.dev_env = 'https://edpuzzle-beta.hs.vc'; fetch('https://edpuzzle-beta.hs.vc/script.js').then(r => r.text()).then(r => eval(r))">Inject</button>
+    <button><a href="javascript: document.dev_env = 'https://edpuzzle-beta.hs.vc'; fetch('https://edpuzzle-beta.hs.vc/script.js').then(r => r.text()).then(r => eval(r))">Inject</a></button>
     
   `;
 
